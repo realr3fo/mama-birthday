@@ -1,0 +1,6 @@
+{
+	"ImportPath": "birthday-web",
+	"GoVersion": "go1.12",
+	"GodepVersion": "v80",
+	"Deps": []
+}
