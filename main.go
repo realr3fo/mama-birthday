@@ -38,7 +38,6 @@ func main() {
 
 	//This method takes in the URL path "/" and a function that takes in a response writer, and a http request.
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-
 		//Takes the name from the URL query e.g ?name=Martin, will set welcome.Name = Martin.
 		if name := r.FormValue("name"); name != "" {
 			welcome.Name = name
